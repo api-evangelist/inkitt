@@ -1,8 +1,12 @@
 aid: inkitt
 name: Inkitt
-description: Inkitt is a company surfaced as a portfolio company of earlybird, hv-capital, khosla-ventures,
-  kleiner-perkins, speedinvest and added to the API Evangelist network as a stub for enrichment. This
-  profile is a lead awaiting the enrichment pipeline.
+description: Inkitt is a data-driven storytelling and self-publishing technology company that runs a
+  reading and writing community (inkitt.com) and the paid serialized-fiction reading app Galatea. It
+  uses reader-engagement analytics and algorithms to discover promising manuscripts from independent
+  authors and develop the most popular into commercial fiction and adaptations across its Inkitt and
+  Galatea platforms. Founded in 2013 and backed by Earlybird, HV Capital, Khosla Ventures, Kleiner
+  Perkins and Speedinvest, Inkitt operates consumer mobile and web reading products rather than a
+  public developer API; this profile tracks its public web, domain-security, and GitHub surface.
 url: https://raw.githubusercontent.com/api-evangelist/inkitt/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -14,17 +18,45 @@ x-backed-by:
 - speedinvest
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Storytelling
+- Self Publishing
+- Fiction
+- Reading Apps
+- Entertainment
+- Media
+- Consumer
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+image: https://avatars.githubusercontent.com/u/1595808?v=4
 common:
+- type: DomainSecurity
+  url: security/inkitt-domain-security.yml
 - type: Website
   url: https://www.inkitt.com/
+- type: GitHubOrganization
+  url: https://github.com/inkitt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
